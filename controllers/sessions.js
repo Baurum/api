@@ -1,6 +1,11 @@
 const Session = require('../models/session');
 const User = require('../models/user');
 
+/**
+ * Create session.
+ * @param req
+ * @param res
+ */
 exports.create = function login(req, res) {
     if(!req.body.email || !req.body.password) {
         res.status(400).send('Missing credentials');
@@ -22,6 +27,13 @@ exports.create = function login(req, res) {
 
 };
 
+/**
+ * Delete session
+ * @param req
+ * @param res
+ */
 exports.delete = function logout(req, res) {
-    res.send('logout')
+    Session.deleteOne({userId: req.body.email}, function (err) {
+        res.status(205).send('Logout')
+    });
 };

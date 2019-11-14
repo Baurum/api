@@ -1,5 +1,10 @@
-var User = require('../models/user');
+const User = require('../models/user');
 
+/**
+ * Create user.
+ * @param req
+ * @param res
+ */
 exports.create = function create(req, res) {
     if (!req.body.email || !req.body.password) {
         res.status(422).send('Error fatal');
