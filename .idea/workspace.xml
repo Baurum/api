@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a7b493-027b-4901-b4ff-46529e28d593" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/sessions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/time-registries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/session.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/time-registry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/sessions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/time-registries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/date-register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -29,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.9.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -56,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1573581242113</updated>
       <workItem from="1573581251404" duration="4726000" />
-      <workItem from="1573660740124" duration="10797000" />
+      <workItem from="1573660740124" duration="11461000" />
+      <workItem from="1573747660796" duration="9175000" />
     </task>
     <servers />
   </component>
@@ -80,26 +91,61 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/index.js</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/express/lib/express.js</url>
-          <line>27</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/controllers/users.js</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/express/lib/express.js</url>
-          <line>37</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/users.js</url>
-          <line>5</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="req.body[0]" language="JavaScript" />
+        <watch expression="req.body.toString()" language="JavaScript" />
+        <watch expression="req.body['email']" language="JavaScript" />
+        <watch expression="req.body" language="JavaScript" />
+        <watch expression="new User(req.body).email" language="JavaScript" />
+        <watch expression="req.body.password" language="JavaScript" />
+        <watch expression="user.password" language="JavaScript" />
+        <watch expression="user" language="JavaScript" />
+        <watch expression="req.body.email" language="JavaScript" />
+        <watch expression="const session = new Session(req.body);     session.save((err, session) =&gt; {         if (err) return res.send(422);         return res.send(200, session)     });" language="JavaScript" />
+        <watch expression="User.find({email: req.body.email})" language="JavaScript" />
+        <watch expression="User.find({email: req.body.email}" language="JavaScript" />
+        <watch expression="User.find({email: req.body.email})" language="JavaScript" />
+        <watch expression="User.find({email: req.body.email})" language="JavaScript" />
+        <watch expression="user.email" language="JavaScript" />
+        <watch expression="user.email" language="JavaScript" />
+        <watch expression="User.find({email: req.body.email})" language="JavaScript" />
+        <watch expression="user.email" language="JavaScript" />
+        <watch expression="user[0].email" language="JavaScript" />
+        <watch expression="user.email" language="JavaScript" />
+        <watch expression="user[0].email" language="JavaScript" />
+        <watch expression="req.body.email" language="JavaScript" />
+        <watch expression="user.email" language="JavaScript" />
+        <watch expression="user " language="JavaScript" />
+        <watch expression="User.findOne({email: req.body.email})" language="JavaScript" />
+        <watch expression="user.password" language="JavaScript" />
+        <watch expression="session" language="JavaScript" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
