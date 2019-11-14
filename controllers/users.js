@@ -2,7 +2,7 @@ var User = require('../models/user');
 
 exports.create = function create(req, res) {
     if (!req.body.email || !req.body.password) {
-        res.send(422, 'error fatal');
+        res.status(422).send('Error fatal');
         return;
     }
     User.findOne({email: req.body.email}, (err, user) => {
@@ -13,8 +13,8 @@ exports.create = function create(req, res) {
         } else {
             const newUser = new User(req.body);
             newUser.save((err, user) => {
-                if (err) return res.send(422);
-                return res.send(201, user)
+                if (err) return res.status(422).send('Can not create');
+                return res.status(201).send(user)
             });
         }
     });

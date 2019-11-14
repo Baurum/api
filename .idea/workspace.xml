@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a7b493-027b-4901-b4ff-46529e28d593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/sessions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/time-registries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/session.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/time-registry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/sessions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/time-registries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/date-register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/sessions.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/sessions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/users.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +57,7 @@
       <updated>1573581242113</updated>
       <workItem from="1573581251404" duration="4726000" />
       <workItem from="1573660740124" duration="11461000" />
-      <workItem from="1573747660796" duration="9175000" />
+      <workItem from="1573747660796" duration="9944000" />
     </task>
     <servers />
   </component>
@@ -92,7 +82,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
-          <line>10</line>
+          <line>8</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -104,13 +94,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
-          <line>11</line>
+          <line>9</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
-          <line>14</line>
+          <line>12</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
