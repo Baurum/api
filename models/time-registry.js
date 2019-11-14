@@ -3,8 +3,8 @@ const Schema = mongoose.Schema;
 
 const TimeRegistry = new Schema({
     userId: String,
-    startDate: Date,
-    endDate: Date,
+    startDate: String,
+    endDate: String,
     entryTime: String,
     exitTime: String
 });
