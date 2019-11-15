@@ -58,7 +58,8 @@
       <workItem from="1573581251404" duration="4726000" />
       <workItem from="1573660740124" duration="11461000" />
       <workItem from="1573747660796" duration="12745000" />
-      <workItem from="1573801842785" duration="3318000" />
+      <workItem from="1573801842785" duration="3782000" />
+      <workItem from="1573827266354" duration="5668000" />
     </task>
     <servers />
   </component>
@@ -88,15 +89,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/time-registries.js</url>
-          <line>27</line>
-          <properties lambdaOrdinal="-1" />
+          <line>34</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/time-registries.js</url>
-          <line>10</line>
+          <line>11</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controllers/time-registries.js</url>
+          <line>37</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
+          <line>38</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -112,6 +124,8 @@
         <watch expression="user" language="JavaScript" />
         <watch expression="req.headers[&quot;authorization&quot;]" language="JavaScript" />
         <watch expression="req.body.email" language="JavaScript" />
+        <watch expression="req.body.userId" language="JavaScript" />
+        <watch expression="Session.find()" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>
