@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c1a7b493-027b-4901-b4ff-46529e28d593" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/sessions.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/sessions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/time-registries.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/time-registries.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/time-registry.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/time-registry.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,8 @@
       <updated>1573581242113</updated>
       <workItem from="1573581251404" duration="4726000" />
       <workItem from="1573660740124" duration="11461000" />
-      <workItem from="1573747660796" duration="12639000" />
+      <workItem from="1573747660796" duration="12745000" />
+      <workItem from="1573801842785" duration="3318000" />
     </task>
     <servers />
   </component>
@@ -81,41 +82,36 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
-          <line>13</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/users.js</url>
           <line>12</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/controllers/time-registries.js</url>
+          <line>27</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
-          <line>18</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controllers/time-registries.js</url>
-          <line>20</line>
+          <line>10</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
         <watch expression="req.body.startDate" language="JavaScript" />
+        <watch expression="token" language="JavaScript" />
         <watch expression="newRegistry.startDate" language="JavaScript" />
+        <watch expression="req.authorization" language="JavaScript" />
+        <watch expression="req.auth" language="JavaScript" />
+        <watch expression="req.authentication" language="JavaScript" />
+        <watch expression="req.getAuthTag()" language="JavaScript" />
+        <watch expression="user" language="JavaScript" />
+        <watch expression="req.headers[&quot;authorization&quot;]" language="JavaScript" />
+        <watch expression="req.body.email" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>
