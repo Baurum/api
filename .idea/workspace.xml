@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1a7b493-027b-4901-b4ff-46529e28d593" name="Default Changelist" comment="" />
+    <list default="true" id="c1a7b493-027b-4901-b4ff-46529e28d593" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/sessions.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/sessions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/time-registries.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/time-registries.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -16,8 +28,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.9.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,7 +55,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573581242113</updated>
-      <workItem from="1573581251404" duration="555000" />
+      <workItem from="1573581251404" duration="4726000" />
+      <workItem from="1573660740124" duration="11461000" />
+      <workItem from="1573747660796" duration="12745000" />
+      <workItem from="1573801842785" duration="3782000" />
+      <workItem from="1573827266354" duration="5668000" />
     </task>
     <servers />
   </component>
@@ -60,5 +78,55 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controllers/users.js</url>
+          <line>12</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controllers/time-registries.js</url>
+          <line>34</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controllers/time-registries.js</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controllers/time-registries.js</url>
+          <line>37</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controllers/sessions.js</url>
+          <line>38</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="req.body.startDate" language="JavaScript" />
+        <watch expression="token" language="JavaScript" />
+        <watch expression="newRegistry.startDate" language="JavaScript" />
+        <watch expression="req.authorization" language="JavaScript" />
+        <watch expression="req.auth" language="JavaScript" />
+        <watch expression="req.authentication" language="JavaScript" />
+        <watch expression="req.getAuthTag()" language="JavaScript" />
+        <watch expression="user" language="JavaScript" />
+        <watch expression="req.headers[&quot;authorization&quot;]" language="JavaScript" />
+        <watch expression="req.body.email" language="JavaScript" />
+        <watch expression="req.body.userId" language="JavaScript" />
+        <watch expression="Session.find()" language="JavaScript" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
