@@ -12,4 +12,9 @@ router.post('/', async (req, res, next) => {
     registryController.create(req, res);
 });
 
+/* PATCH time registry. */
+router.patch('/', async (req, res, next) => {
+    registryController.update(req, res);
+});
+
 module.exports = router;
