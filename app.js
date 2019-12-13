@@ -23,7 +23,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 // Connecting to db
-mongoose.connect('mongodb://localhost/api-mongo')
+mongoose.connect('mongodb://heroku_n8dspjgv:f9q8bb17drdt1pt5lhfvko49c5@ds243518.mlab.com:43518/heroku_n8dspjgv')
     .then(db => console.log('Database connected'))
     .catch(err => console.log(err))
 ;
