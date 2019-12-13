@@ -4,11 +4,11 @@ const TimeRegistry = require('../models/time-registry');
 const User = require('../models/user');
 const Session = require('../models/session');
 
-
 /**
  * Get time registry listing.
  * @param req
  * @param res
+ * @returns {*|boolean|void}
  */
 exports.index = function index(req, res) {
     const token = req.headers["authorization"];
@@ -26,6 +26,12 @@ exports.index = function index(req, res) {
     });
 };
 
+/**
+ * Update time registry
+ * @param req
+ * @param res
+ * @returns {*|boolean|void}
+ */
 exports.update = function update (req, res) {
     const token = req.headers["authorization"];
     //if no token found, response with no token provided
@@ -53,6 +59,7 @@ exports.update = function update (req, res) {
  * Create time registry.
  * @param req
  * @param res
+ * @returns {*|boolean|void}
  */
 exports.create = function create(req, res) {
     const token = req.headers["authorization"];
